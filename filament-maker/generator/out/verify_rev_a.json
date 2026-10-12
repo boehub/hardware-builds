@@ -1,0 +1,240 @@
+[
+ [
+  "01",
+  "Interference",
+  "H37 1 kg filament spool (200 mm)  x  P14 Dancer arm + guide roller",
+  "FAIL",
+  "unintended overlap 8046 mm3"
+ ],
+ [
+  "02",
+  "Interference",
+  "P11 Spooler plates + base  x  P12 Spool hub cones x2",
+  "FAIL",
+  "unintended overlap 3025 mm3"
+ ],
+ [
+  "03",
+  "Interference",
+  "P08 Puller frame (base + side plates)  x  P10 Puller idler roller + spring arm",
+  "FAIL",
+  "unintended overlap 1024 mm3"
+ ],
+ [
+  "04",
+  "Interference",
+  "P06a Cooling trough segment A  x  H39 Filament line",
+  "FAIL",
+  "unintended overlap 53 mm3"
+ ],
+ [
+  "05",
+  "Interference",
+  "P06b Cooling trough segment B  x  H39 Filament line",
+  "FAIL",
+  "unintended overlap 53 mm3"
+ ],
+ [
+  "06",
+  "Interference",
+  "P10 Puller idler roller + spring arm  x  H39 Filament line",
+  "FAIL",
+  "unintended overlap 1 mm3"
+ ],
+ [
+  "07",
+  "Interference",
+  "52 parts, 1326 pairs checked",
+  "FAIL",
+  "12 intended fits (threads, clamps, press fits) ignored, 6 unintended overlaps"
+ ],
+ [
+  "08",
+  "Load path",
+  "thrust bearing sits on the flange seat",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "09",
+  "Load path",
+  "shaft collar bears on the thrust bearing",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "10",
+  "Load path",
+  "chuck bears on the shaft collar",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "11",
+  "Load path",
+  "rear tie-rod nuts bear on the housing flange",
+  "FAIL",
+  "gap 1.5 mm  - the load path is open here"
+ ],
+ [
+  "12",
+  "Load path",
+  "front tie-rod nuts bear on the head plate",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "13",
+  "Load path",
+  "floor flange seats on the head plate",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "14",
+  "Load path",
+  "gearbox seats on the motor wall",
+  "FAIL",
+  "gap 2.0 mm  - the load path is open here"
+ ],
+ [
+  "15",
+  "Load path",
+  "R8 bearings seat in the housing",
+  "PASS",
+  "gap 0.1 mm"
+ ],
+ [
+  "16",
+  "Load path",
+  "hopper sleeve rests on the tee (vertical load)",
+  "FAIL",
+  "gap 8.0 mm  - the load path is open here"
+ ],
+ [
+  "17",
+  "Printing",
+  "P07 Fan ducts x4 does not fit the 245x245x260 bed",
+  "FAIL",
+  "[360.0, 40.0, 28.0]"
+ ],
+ [
+  "18",
+  "Printing",
+  "All printed parts fit the Vyper bed (245 x 245 x 260) in their print orientation",
+  "FAIL",
+  "16 part files checked"
+ ],
+ [
+  "19",
+  "Screw / barrel",
+  "Radial clearance flight-to-barrel",
+  "PASS",
+  "0.46 mm (target 0.2-0.8)"
+ ],
+ [
+  "20",
+  "Screw / barrel",
+  "Self-weight sag of the cantilevered screw",
+  "WARN",
+  "0.92 mm vs 0.46 mm clearance - flights rest on the barrel floor: expect slow wear, keep the barrel lubricated by the melt, replace the bit when worn"
+ ],
+ [
+  "21",
+  "Drive",
+  "Screw torque at the 1.2 A driver limit",
+  "FAIL",
+  "19.4 Nm -> core shear 193 MPa (mild-steel auger core yields about 150-170 MPa)"
+ ],
+ [
+  "22",
+  "Drive",
+  "Thrust at 10 MPa melt pressure vs thrust bearing seat",
+  "PASS",
+  "3142 N, 6.5 MPa on the printed seat (PETG about 50 MPa, use 15 as the limit)"
+ ],
+ [
+  "23",
+  "Drive",
+  "M8 tie rods in tension at 10 MPa",
+  "PASS",
+  "21 MPa (steel grade 4.8 yields 320 MPa)"
+ ],
+ [
+  "24",
+  "Process",
+  "Die pressure at 4 rpm",
+  "PASS",
+  "1.6 MPa through the 2.2 x 14 mm die"
+ ],
+ [
+  "25",
+  "Cooling",
+  "Air cooling length at 4 rpm (PLA 190 -> 60 C)",
+  "FAIL",
+  "need 1041 mm, trough is 425 mm; max about 0.67 m/min on air"
+ ],
+ [
+  "26",
+  "Hopper",
+  "Cone wall angle from horizontal (flakes need about 55-60 degrees to flow)",
+  "FAIL",
+  "32 degrees"
+ ],
+ [
+  "27",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.2 g/cm3 bulk density (90% fill)",
+  "FAIL",
+  "2.8 L gross, 500 g"
+ ],
+ [
+  "28",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.3 g/cm3 bulk density (90% fill)",
+  "FAIL",
+  "2.8 L gross, 751 g"
+ ],
+ [
+  "29",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.4 g/cm3 bulk density (90% fill)",
+  "PASS",
+  "2.8 L gross, 1001 g"
+ ],
+ [
+  "30",
+  "Spooler",
+  "1 kg of PLA on the spool (335 m)",
+  "PASS",
+  "winding reaches R 89 mm of 100 mm flange, 60 mm winding width"
+ ],
+ [
+  "31",
+  "Spooler",
+  "1 kg of PETG on the spool (327 m)",
+  "PASS",
+  "winding reaches R 89 mm of 100 mm flange, 60 mm winding width"
+ ],
+ [
+  "32",
+  "Spooler",
+  "Level-wind traverse present (needed to build a 1 kg pack)",
+  "FAIL",
+  "without a traverse all the filament lands in one 2 mm band; the pile would be metres wide - 1 kg cannot be wound by hand-guiding at this speed"
+ ],
+ [
+  "33",
+  "Electrical",
+  "Mains current: 4 x 200 W heaters + 24 V supply",
+  "PASS",
+  "7.6 A on a 15 A circuit"
+ ],
+ [
+  "34",
+  "Stability",
+  "Hopper lateral load on the feed joint (30 N push at 300 mm)",
+  "WARN",
+  "9 Nm at a hand-tight NPT joint: it will loosen over time; add a stay to the head plate"
+ ]
+]

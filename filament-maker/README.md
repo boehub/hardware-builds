@@ -44,8 +44,12 @@ Material starting setpoints are included for PLA, PETG, ABS/ASA, TPU, PET and PP
 - `source/filament_maker_blueprint.pdf`: the full blueprint set, viewable right on GitHub
 - `source/filament_maker_blueprint.pptx`: the editable blueprint set
 - `models/filament_maker_assembly.fbx`: Blender assembly model
-- `print-files/filament_maker_stl.zip`: STL files for the printed parts
-- `generator/filament_maker_generator.zip`: scripts that generate the parts and run the geometry checker
+- `print-files/filament_maker_stl.zip`: 26 STL files (P01 to P26) for the printed parts
+- `generator/`: the Python scripts that generate the parts, run the geometry check and build the deck (see its README), with Rev A and Rev B verification results in `generator/out/`
+
+## About the generator
+
+The whole design is parametric: every dimension lives in `generator/fm_params.py`. Changing a value and re-running the scripts rebuilds the 3D model, the STL files and the drawings, and the geometry checker (`fm_verify.py`) re-tests every part pair. The scripts need Python with Blender's `bpy`, plus `trimesh`, `manifold3d` and `shapely`.
 
 ## Safety notes from the design
 Printed parts must stay below about 70 C, so the head plate and bearing housing should be checked with an IR thermometer on the first run. ABS/ASA fumes need ventilation.
