@@ -5,6 +5,7 @@ A complete design for a desktop machine that melts plastic flakes (print scrap o
 **Status:** Design complete (Rev B). Not yet built.
 
 ![Overview sheet](images/01-overview.png)
+<!-- Export sheet 1 from the .pptx as a PNG and save it to images/01-overview.png -->
 
 ## Key numbers
 
@@ -32,21 +33,22 @@ Rev A was checked by testing the geometry of every part against every other part
 | 1-3 | Overview, Rev B changes, verification report |
 | 4-5 | Assembly views, overall size, exploded view with part numbers |
 | 6-9 | Hopper, process and material settings, screw and barrel section, die and filter |
-| 10 onward | Drive train and thrust loop, printed parts, electronics and more (see the sheet index on page 1) |
+| 10-13 | Drive train and thrust loop, printed parts, water bath, puller, dancer and level-wind spooler |
+| 14-17 | Print list, electrical and safety, speeds, bill of materials |
+| 18-20 | Tools and workarounds, assembly order and design checks, open items (VERIFY) and roadmap |
 
 Material starting setpoints are included for PLA, PETG, ABS/ASA, TPU, PET and PP/HDPE.
 
 ## Files
 
+- `source/filament_maker_blueprint.pdf`: the full blueprint set, viewable right on GitHub
 - `source/filament_maker_blueprint.pptx`: the editable blueprint set
 - `models/filament_maker_assembly.fbx`: Blender assembly model
 - `print-files/filament_maker_stl.zip`: STL files for the printed parts
 - `generator/filament_maker_generator.zip`: scripts that generate the parts and run the geometry checker
 
 ## Safety notes from the design
-
 Printed parts must stay below about 70 C, so the head plate and bearing housing should be checked with an IR thermometer on the first run. ABS/ASA fumes need ventilation.
 
 ## Related
-
 The [shredder](../shredder/) prepares the flakes this machine uses.
