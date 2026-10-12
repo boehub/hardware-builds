@@ -30,5 +30,6 @@ A dual-shaft shredder designed to cut plastic bottles and 3D print scrap into sm
 
 - `source/shredder_blueprint.pdf`: the full blueprint set, viewable right on GitHub
 - `source/shredder_blueprint.pptx`: the editable blueprint set
-- `models/shredder_assembly.fbx`: Blender assembly model
-- `cut-files/shredder_dxf.zip`: DXF files for the plate parts
+- `models/shredder_assembly.fbx`: Blender assembly model of the whole machine
+- `models/parts_library.zip`: 32 individual part models (.fbx): blades, spacers, combs, gears, shafts, end plates, motor cradle, coupler, gearbox, motor, controller enclosure, e-stop and more
+- `cut-files/shredder_dxf.zip`: 13 DXF files for cutting the plate parts (blades x26 at 3 mm, spacers x26, combs x26, walls x26, 20 mm gears, end plates, top/bottom plates, base plate and motor cradle), plus an overview of all parts
