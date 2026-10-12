@@ -1,0 +1,296 @@
+[
+ [
+  "01",
+  "Interference",
+  "77 parts, 2926 pairs checked",
+  "PASS",
+  "17 intended fits (threads, clamps, press fits) ignored, 0 unintended overlaps"
+ ],
+ [
+  "02",
+  "Load path",
+  "thrust bearing sits on the flange seat",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "03",
+  "Load path",
+  "shaft collar bears on the thrust bearing",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "04",
+  "Load path",
+  "chuck bears on the shaft collar",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "05",
+  "Load path",
+  "rear tie-rod nuts bear on the housing flange",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "06",
+  "Load path",
+  "front tie-rod nuts bear on the head plate",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "07",
+  "Load path",
+  "floor flange seats on the head plate",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "08",
+  "Load path",
+  "gearbox seats on the motor wall",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "09",
+  "Load path",
+  "R8 bearings seat in the housing",
+  "PASS",
+  "gap 0.1 mm"
+ ],
+ [
+  "10",
+  "Load path",
+  "hopper sleeve rests on the tee (vertical load)",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "11",
+  "Load path",
+  "hopper stay arm lies on the head plate top",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "12",
+  "Load path",
+  "puller pressure bridge sits on the side plates",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "13",
+  "Load path",
+  "hopper drum flange meets the lower cone flange",
+  "PASS",
+  "gap 0.0 mm"
+ ],
+ [
+  "14",
+  "Printing",
+  "All printed parts fit the Vyper bed (245 x 245 x 260) in their print orientation",
+  "PASS",
+  "28 part files checked"
+ ],
+ [
+  "15",
+  "Screw / barrel",
+  "Radial clearance flight-to-barrel",
+  "PASS",
+  "0.46 mm (target 0.2-0.8)"
+ ],
+ [
+  "16",
+  "Screw / barrel",
+  "Self-weight sag of the cantilevered screw",
+  "WARN",
+  "0.92 mm vs 0.46 mm clearance - flights rest on the barrel floor: expect slow wear, keep the barrel lubricated by the melt, replace the bit when worn"
+ ],
+ [
+  "17",
+  "Drive",
+  "Screw torque at the 1.2 A driver limit",
+  "PASS",
+  "14.6 Nm -> core shear 145 MPa (mild-steel auger core yields about 150-170 MPa)"
+ ],
+ [
+  "18",
+  "Drive",
+  "Thrust at 10 MPa melt pressure vs thrust bearing seat",
+  "PASS",
+  "3142 N, 6.5 MPa on the printed seat (PETG about 50 MPa, use 15 as the limit)"
+ ],
+ [
+  "19",
+  "Drive",
+  "M8 tie rods in tension at 10 MPa",
+  "PASS",
+  "21 MPa (steel grade 4.8 yields 320 MPa)"
+ ],
+ [
+  "20",
+  "Process",
+  "Die pressure at 4 rpm",
+  "PASS",
+  "1.6 MPa through the 2.2 x 14 mm die"
+ ],
+ [
+  "21",
+  "Cooling",
+  "Cooling length at 4 rpm (PLA 190 -> 60 C)",
+  "PASS",
+  "need 52 mm in water, have about 394 mm; air would need 1041 mm"
+ ],
+ [
+  "22",
+  "Cooling",
+  "Water temperature rise over one kg (10 L reservoir)",
+  "PASS",
+  "24 W into the bath, +7 K per kg with circulation"
+ ],
+ [
+  "23",
+  "Hopper",
+  "Cone wall angle from horizontal (flakes need about 55-60 degrees to flow)",
+  "PASS",
+  "60 degrees"
+ ],
+ [
+  "24",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.2 g/cm3 bulk density (90% fill)",
+  "PASS",
+  "6.4 L gross, 1154 g"
+ ],
+ [
+  "25",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.3 g/cm3 bulk density (90% fill)",
+  "PASS",
+  "6.4 L gross, 1732 g"
+ ],
+ [
+  "26",
+  "Hopper",
+  "Holds 1 kg of flakes at 0.4 g/cm3 bulk density (90% fill)",
+  "PASS",
+  "6.4 L gross, 2309 g"
+ ],
+ [
+  "27",
+  "Spooler",
+  "1 kg of PLA on the spool (335 m)",
+  "PASS",
+  "winding reaches R 89 mm of 100 mm flange, 60 mm winding width"
+ ],
+ [
+  "28",
+  "Spooler",
+  "1 kg of PETG on the spool (327 m)",
+  "PASS",
+  "winding reaches R 89 mm of 100 mm flange, 60 mm winding width"
+ ],
+ [
+  "29",
+  "Spooler",
+  "Level-wind traverse present (needed to build a 1 kg pack)",
+  "PASS",
+  "NEMA 17 + T8 lead screw, step rate follows spool turns"
+ ],
+ [
+  "30",
+  "Electrical",
+  "Mains current: 4 x 200 W heaters + 24 V supply",
+  "PASS",
+  "7.6 A on a 15 A circuit"
+ ],
+ [
+  "31",
+  "Stability",
+  "Hopper lateral load on the feed joint (30 N push at 300 mm)",
+  "PASS",
+  "ears bolt the hopper to the head plate"
+ ],
+ [
+  "32",
+  "Spooler",
+  "Dancer arm swept 15 to 60 degrees: clear of post, pot, puller, level-wind and spool",
+  "PASS",
+  "no contact"
+ ],
+ [
+  "33",
+  "Spooler",
+  "Level-wind travel +-28 mm inside the 60 mm winding width",
+  "PASS",
+  "2.0 mm margin per side"
+ ],
+ [
+  "34",
+  "Spooler",
+  "Carriage clears the brackets and motor at both ends of its travel",
+  "PASS",
+  "carriage body y +-8, brackets at y +-58..66, motor face y 66"
+ ],
+ [
+  "35",
+  "Spooler",
+  "Spool drive: cone friction torque vs torque needed at 1 N strand tension, full spool",
+  "PASS",
+  "0.29 Nm available (2 N/mm spring, 10 mm preload, mu 0.3) vs 0.09 Nm needed: margin x3.2"
+ ],
+ [
+  "36",
+  "Spooler",
+  "Spool can be dropped in: idler cone retracts 12 mm",
+  "PASS",
+  "68 mm between cone tips vs 66 mm spool"
+ ],
+ [
+  "37",
+  "Spooler",
+  "Spool stepper speed range (1/16 micro-step)",
+  "PASS",
+  "3.0 to 5.3 rpm = 157 to 280 steps/s; level-wind 1.75 mm per spool turn = 700 steps per turn"
+ ],
+ [
+  "38",
+  "Hopper",
+  "Agitator torque (rough): 3 N at 60 mm radius vs gearmotor stall",
+  "PASS",
+  "about 0.2 Nm needed, 24 V 12 rpm gearmotor is rated 1.5 Nm or more (VERIFY the listing)"
+ ],
+ [
+  "39",
+  "Cooling",
+  "Strand length under water (from the modelled path)",
+  "PASS",
+  "485 mm under water vs 52 mm needed (3x margin)"
+ ],
+ [
+  "40",
+  "Cooling",
+  "Strand clears the entry / exit notches and stays above the water level there",
+  "PASS",
+  "strand z = -2.7 at the entry wall, -3.2 at the exit wall (notch floor -7.5, water -10)"
+ ],
+ [
+  "41",
+  "Barrel",
+  "NPT thread engagement at every joint (needs about 12-13 mm)",
+  "PASS",
+  "floor flange / close nipple 13, close nipple / tee 13, tee / barrel 13, barrel / cap 13"
+ ],
+ [
+  "42",
+  "Drive",
+  "Tie-rod hole edge distance in the housing flange",
+  "PASS",
+  "7.8 mm of PETG beyond each rod hole (6 walls)"
+ ]
+]
