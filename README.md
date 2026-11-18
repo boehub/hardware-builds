@@ -2,7 +2,7 @@
 
 (Still in the early stage, code will be provided in the near future, either way, please enjoy what is currently and reference me. ^^ Happy building!)
 
-Engineering designs and blueprints by **Ryan Boe**, a Computer Engineering student at Old Dominion University. Each project is documented as a set of dimensioned blueprint sheets, with 3D models, print/cut files and the calculations behind the design.
+Engineering designs and blueprints by **Ryan Boe**, a GIS student at Old Dominion University. Each project is documented as a set of dimensioned blueprint sheets, with 3D models, print/cut files and the calculations behind the design.
 
 | Project | What it is | Status |
 |---|---|---|
