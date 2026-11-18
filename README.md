@@ -1,6 +1,6 @@
 # Hardware Builds
 
-(Still in the early stage, code will be provided in the near future, either way, please enjoy what is currently and reference me. ^^ Happy building!)
+Designs and 3D models, with the Python generator and checker scripts behind them. If you build on any of this, please credit the project.
 
 Engineering designs and blueprints by **Ryan Boe**, a GIS student at Old Dominion University. Each project is documented as a set of dimensioned blueprint sheets, with 3D models, print/cut files and the calculations behind the design.
 
@@ -19,7 +19,5 @@ hardware-builds/
 
 ## Tools used
 Blender (3D assemblies, .fbx), PowerPoint (blueprint sheets), Python (generator and checker scripts), 3D printing (PETG/ASA).
-
-See also: [vertical-wind-turbine](https://github.com/boehub/vertical-wind-turbine), a laser-cut vertical-axis rotor design.
 
 *All projects are at the design stage unless a README says otherwise.*
